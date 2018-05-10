@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "Xstream"
+  s.name             = 'xstream'
   s.version          = '1.4.7.J2ObjC2.1.1'
   s.author           = { "Ryan Salton" => "ryan.salton@laundrapp.com" }
   s.source           = { :git => "https://github.com/laundrapp/xstream.git", :tag => "<LIBRARY_VERSION_NO>.J2ObjC<J2OBJC_VERSION>" }
