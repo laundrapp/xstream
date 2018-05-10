@@ -11,7 +11,6 @@
 package com.thoughtworks.xstream.io.xml;
 
 import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
-import com.thoughtworks.xstream.io.xml.xppdom.XppDom;
 
 import junit.framework.TestCase;
 

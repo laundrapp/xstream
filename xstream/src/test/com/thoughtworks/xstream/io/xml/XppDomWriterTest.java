@@ -10,8 +10,6 @@
  */
 package com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.io.xml.xppdom.XppDom;
-
 /**
  * @author J&ouml;rg Schaible
  */

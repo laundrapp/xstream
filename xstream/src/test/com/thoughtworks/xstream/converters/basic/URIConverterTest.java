@@ -14,7 +14,6 @@ import java.net.URI;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.xml.DomDriver;
 
 /**
  * @author Carlos Roman

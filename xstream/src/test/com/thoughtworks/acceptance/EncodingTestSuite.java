@@ -28,13 +28,6 @@ import com.bea.xml.stream.MXParserFactory;
 import com.thoughtworks.acceptance.objects.StandardObject;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
-import com.thoughtworks.xstream.io.xml.Dom4JDriver;
-import com.thoughtworks.xstream.io.xml.DomDriver;
-import com.thoughtworks.xstream.io.xml.JDomDriver;
-import com.thoughtworks.xstream.io.xml.StaxDriver;
-import com.thoughtworks.xstream.io.xml.XomDriver;
-import com.thoughtworks.xstream.io.xml.XppDomDriver;
-import com.thoughtworks.xstream.io.xml.XppDriver;
 
 
 /**

@@ -21,19 +21,7 @@ import com.thoughtworks.xstream.converters.UnmarshallingContext;
 import com.thoughtworks.xstream.converters.collections.CollectionConverter;
 import com.thoughtworks.xstream.core.JVM;
 import com.thoughtworks.xstream.io.binary.BinaryStreamDriver;
-import com.thoughtworks.xstream.io.xml.BEAStaxDriver;
-import com.thoughtworks.xstream.io.xml.Dom4JDriver;
-import com.thoughtworks.xstream.io.xml.DomDriver;
-import com.thoughtworks.xstream.io.xml.JDomDriver;
-import com.thoughtworks.xstream.io.xml.KXml2DomDriver;
-import com.thoughtworks.xstream.io.xml.KXml2Driver;
-import com.thoughtworks.xstream.io.xml.StaxDriver;
-import com.thoughtworks.xstream.io.xml.WstxDriver;
-import com.thoughtworks.xstream.io.xml.XomDriver;
-import com.thoughtworks.xstream.io.xml.Xpp3DomDriver;
-import com.thoughtworks.xstream.io.xml.Xpp3Driver;
 import com.thoughtworks.xstream.io.xml.XppDomDriver;
-import com.thoughtworks.xstream.io.xml.XppDriver;
 
 import junit.framework.Assert;
 import junit.framework.AssertionFailedError;
@@ -84,14 +72,14 @@ public class DriverEndToEndTestSuite extends TestSuite {
         addDriverTest(new XppDomDriver());
         addDriverTest(new XppDriver());
         if (JVM.is14()) {
-            Class driverType = JVM.loadClassForName("com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver");
-            try {
-                addDriverTest((HierarchicalStreamDriver)driverType.newInstance());
-            } catch (InstantiationException e) {
-                throw new AssertionFailedError("Cannot instantiate " + driverType.getName());
-            } catch (IllegalAccessException e) {
-                throw new AssertionFailedError("Cannot access default constructor of " + driverType.getName());
-            }
+//            Class driverType = JVM.loadClassForName("com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver");
+//            try {
+//                addDriverTest((HierarchicalStreamDriver)driverType.newInstance());
+//            } catch (InstantiationException e) {
+//                throw new AssertionFailedError("Cannot instantiate " + driverType.getName());
+//            } catch (IllegalAccessException e) {
+//                throw new AssertionFailedError("Cannot access default constructor of " + driverType.getName());
+//            }
         }
     }
 

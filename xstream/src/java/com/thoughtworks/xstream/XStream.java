@@ -85,17 +85,14 @@ import com.thoughtworks.xstream.converters.collections.SingletonCollectionConver
 import com.thoughtworks.xstream.converters.collections.SingletonMapConverter;
 import com.thoughtworks.xstream.converters.collections.TreeMapConverter;
 import com.thoughtworks.xstream.converters.collections.TreeSetConverter;
-import com.thoughtworks.xstream.converters.extended.ColorConverter;
 import com.thoughtworks.xstream.converters.extended.DynamicProxyConverter;
 import com.thoughtworks.xstream.converters.extended.EncodedByteArrayConverter;
 import com.thoughtworks.xstream.converters.extended.FileConverter;
-import com.thoughtworks.xstream.converters.extended.FontConverter;
 import com.thoughtworks.xstream.converters.extended.GregorianCalendarConverter;
 import com.thoughtworks.xstream.converters.extended.JavaClassConverter;
 import com.thoughtworks.xstream.converters.extended.JavaFieldConverter;
 import com.thoughtworks.xstream.converters.extended.JavaMethodConverter;
 import com.thoughtworks.xstream.converters.extended.LocaleConverter;
-import com.thoughtworks.xstream.converters.extended.LookAndFeelConverter;
 import com.thoughtworks.xstream.converters.extended.SqlDateConverter;
 import com.thoughtworks.xstream.converters.extended.SqlTimeConverter;
 import com.thoughtworks.xstream.converters.extended.SqlTimestampConverter;
@@ -823,22 +820,13 @@ public class XStream {
         registerConverter(new JavaMethodConverter(classLoaderReference), PRIORITY_NORMAL);
         registerConverter(new JavaFieldConverter(classLoaderReference), PRIORITY_NORMAL);
         if (JVM.isAWTAvailable()) {
-            registerConverter(new FontConverter(mapper), PRIORITY_NORMAL);
-            registerConverter(new ColorConverter(), PRIORITY_NORMAL);
             registerConverter(new TextAttributeConverter(), PRIORITY_NORMAL);
-        }
-        if (JVM.isSwingAvailable()) {
-            registerConverter(
-                new LookAndFeelConverter(mapper, reflectionProvider), PRIORITY_NORMAL);
         }
         registerConverter(new LocaleConverter(), PRIORITY_NORMAL);
         registerConverter(new GregorianCalendarConverter(), PRIORITY_NORMAL);
 
         if (JVM.is14()) {
             // late bound converters - allows XStream to be compiled on earlier JDKs
-            registerConverterDynamically(
-                "com.thoughtworks.xstream.converters.extended.SubjectConverter",
-                PRIORITY_NORMAL, new Class[]{Mapper.class}, new Object[]{mapper});
             registerConverterDynamically(
                 "com.thoughtworks.xstream.converters.extended.ThrowableConverter",
                 PRIORITY_NORMAL, new Class[]{ConverterLookup.class},

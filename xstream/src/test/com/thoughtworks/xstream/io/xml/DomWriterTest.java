@@ -18,7 +18,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
-import com.thoughtworks.xstream.io.xml.xppdom.XppDom;
 
 public class DomWriterTest extends AbstractDocumentWriterTest {
 

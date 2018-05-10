@@ -44,7 +44,6 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
 import com.thoughtworks.xstream.io.binary.BinaryStreamWriter;
 import com.thoughtworks.xstream.io.binary.BinaryStreamReader;
-import com.thoughtworks.xstream.io.xml.XppDriver;
 import com.thoughtworks.xstream.security.ArrayTypePermission;
 import com.thoughtworks.xstream.security.InterfaceTypePermission;
 import com.thoughtworks.xstream.security.NoTypePermission;

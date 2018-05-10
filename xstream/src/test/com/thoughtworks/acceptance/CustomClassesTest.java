@@ -14,7 +14,6 @@ package com.thoughtworks.acceptance;
 import com.thoughtworks.acceptance.objects.StandardObject;
 import com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
 import com.thoughtworks.xstream.core.JVM;
-import com.thoughtworks.xstream.io.xml.XppReader;
 
 import java.io.StringReader;
 

@@ -15,8 +15,6 @@ import com.thoughtworks.xstream.io.HierarchicalStreamReader;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest;
 import com.thoughtworks.xstream.io.xml.CompactWriter;
-import com.thoughtworks.xstream.io.xml.Xpp3Driver;
-import com.thoughtworks.xstream.io.xml.XppReader;
 import com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
 
 import org.xmlpull.v1.XmlPullParserException;

@@ -21,9 +21,7 @@ import com.thoughtworks.acceptance.someobjects.WithList;
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
 import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
-import com.thoughtworks.xstream.io.xml.BEAStaxDriver;
 import com.thoughtworks.xstream.io.xml.QNameMap;
-import com.thoughtworks.xstream.io.xml.StaxDriver;
 
 public class QNameMappedConcreteClassesTest extends AbstractAcceptanceTest {
 

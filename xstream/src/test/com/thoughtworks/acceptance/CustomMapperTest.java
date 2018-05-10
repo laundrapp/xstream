@@ -21,7 +21,6 @@ import com.thoughtworks.acceptance.someobjects.WithList;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
 import com.thoughtworks.xstream.core.ClassLoaderReference;
-import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.thoughtworks.xstream.mapper.CannotResolveClassException;
 import com.thoughtworks.xstream.mapper.DefaultMapper;
 import com.thoughtworks.xstream.mapper.Mapper;

@@ -23,7 +23,6 @@ import com.thoughtworks.xstream.converters.extended.JavaFieldConverter;
 import com.thoughtworks.xstream.converters.extended.JavaMethodConverter;
 import com.thoughtworks.xstream.core.util.Primitives;
 import com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;
-import com.thoughtworks.xstream.io.xml.XppDriver;
 import com.thoughtworks.xstream.mapper.ArrayMapper;
 import com.thoughtworks.xstream.mapper.CannotResolveClassException;
 import com.thoughtworks.xstream.mapper.Mapper;

@@ -29,7 +29,6 @@ import com.thoughtworks.xstream.io.HierarchicalStreamReader;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.io.StreamException;
 import com.thoughtworks.xstream.io.xml.AbstractDocumentReader;
-import com.thoughtworks.xstream.io.xml.Dom4JDriver;
 import com.thoughtworks.xstream.security.NoTypePermission;
 
 import junit.framework.TestCase;

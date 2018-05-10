@@ -13,7 +13,6 @@ package com.thoughtworks.xstream.io.xml.xppdom;
 
 import java.util.Comparator;
 
-import com.thoughtworks.xstream.io.xml.xppdom.XppDom;
 import com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
 
 import junit.framework.TestCase;

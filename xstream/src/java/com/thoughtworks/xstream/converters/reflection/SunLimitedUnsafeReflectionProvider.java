@@ -74,11 +74,7 @@ public class SunLimitedUnsafeReflectionProvider extends PureJavaReflectionProvid
         }
         try {
             return unsafe.allocateInstance(type);
-        } catch (SecurityException e) {
-            throw new ObjectAccessException("Cannot construct " + type.getName(), e);
-        } catch (InstantiationException e) {
-            throw new ObjectAccessException("Cannot construct " + type.getName(), e);
-        } catch (IllegalArgumentException e) {
+        } catch (Exception e) {
             throw new ObjectAccessException("Cannot construct " + type.getName(), e);
         }
     }

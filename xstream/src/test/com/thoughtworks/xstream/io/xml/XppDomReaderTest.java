@@ -12,7 +12,6 @@
 package com.thoughtworks.xstream.io.xml;
 
 import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.xml.xppdom.XppDom;
 import com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
 
 import java.io.StringReader;

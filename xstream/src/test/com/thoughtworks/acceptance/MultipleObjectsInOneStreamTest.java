@@ -21,7 +21,6 @@ import com.thoughtworks.xstream.core.ReferenceByIdUnmarshaller;
 import com.thoughtworks.xstream.io.HierarchicalStreamReader;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
-import com.thoughtworks.xstream.io.xml.XppReader;
 import com.thoughtworks.xstream.mapper.Mapper;
 import com.thoughtworks.xstream.testutil.CallLog;
 

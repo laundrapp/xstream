@@ -15,7 +15,6 @@ import com.thoughtworks.xstream.io.HierarchicalStreamReader;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
 import com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest;
-import com.thoughtworks.xstream.io.xml.Xpp3Driver;
 
 import java.io.ByteArrayOutputStream;
 import java.io.StringReader;
