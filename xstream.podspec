@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.requires_arc = false
 
-  s.source_files = 'src/gen/objc/**/*.{h,m}'
-  s.public_header_files = 'src/gen/objc/**/*.h'
-  s.header_mappings_dir = 'src/gen/objc'
+  s.source_files = 'xstream/src/gen/objc/**/*.{h,m}'
+  s.public_header_files = 'xstream/src/gen/objc/**/*.h'
+  s.header_mappings_dir = 'xstream/src/gen/objc'
   # s.resources =
 
   # multiple dependencies these should be the s.name and s.version
