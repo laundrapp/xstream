@@ -4,25 +4,25 @@
  *
  * Created on 09. January 2014 by Joerg Schaible
  */
-package com.thoughtworks.xstream.mapper;
+package cucumber.deps.com.thoughtworks.xstream.mapper;
 
 import java.net.URL;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.thoughtworks.xstream.core.JVM;
-import com.thoughtworks.xstream.core.util.QuickWriter;
-import com.thoughtworks.xstream.security.AnyTypePermission;
-import com.thoughtworks.xstream.security.ArrayTypePermission;
-import com.thoughtworks.xstream.security.ExplicitTypePermission;
-import com.thoughtworks.xstream.security.ForbiddenClassException;
-import com.thoughtworks.xstream.security.NoTypePermission;
-import com.thoughtworks.xstream.security.NullPermission;
-import com.thoughtworks.xstream.security.PrimitiveTypePermission;
-import com.thoughtworks.xstream.security.RegExpTypePermission;
-import com.thoughtworks.xstream.security.TypePermission;
-import com.thoughtworks.xstream.security.WildcardTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.core.util.QuickWriter;
+import cucumber.deps.com.thoughtworks.xstream.security.AnyTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.ArrayTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.ExplicitTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.ForbiddenClassException;
+import cucumber.deps.com.thoughtworks.xstream.security.NoTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.NullPermission;
+import cucumber.deps.com.thoughtworks.xstream.security.PrimitiveTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.RegExpTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.TypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.WildcardTypePermission;
 
 import junit.framework.TestCase;
 

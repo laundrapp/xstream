@@ -15,8 +15,8 @@ import com.thoughtworks.acceptance.objects.Product;
 import com.thoughtworks.acceptance.objects.SampleMaps;
 import com.thoughtworks.acceptance.objects.Software;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.converters.collections.MapConverter;
-import com.thoughtworks.xstream.core.util.OrderRetainingMap;
+import cucumber.deps.com.thoughtworks.xstream.converters.collections.MapConverter;
+import cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap;
 
 import java.util.ArrayList;
 import java.util.Collections;

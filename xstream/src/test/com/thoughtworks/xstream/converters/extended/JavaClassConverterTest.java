@@ -9,7 +9,7 @@
  * 
  * Created on 16. February 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 
@@ -55,7 +55,7 @@ public class JavaClassConverterTest extends AbstractAcceptanceTest {
         Class result = (Class) xstream.fromXML(input);
         assertEquals("[Lcom.thoughtworks.xstream.converters.extended.JavaClassConverterTest$B;", result.getName());
         assertTrue("Should be an array", result.isArray());
-        assertEquals("com.thoughtworks.xstream.converters.extended.JavaClassConverterTest$B", result.getComponentType().getName());
+        assertEquals("cucumber.deps.com.thoughtworks.xstream.converters.extended.JavaClassConverterTest$B", result.getComponentType().getName());
     }
     
     public void testHandlesJavaClassArray() {

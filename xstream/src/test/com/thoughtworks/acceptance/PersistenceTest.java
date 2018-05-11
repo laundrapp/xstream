@@ -12,12 +12,12 @@ package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.SampleLists;
 import com.thoughtworks.acceptance.objects.Software;
-import com.thoughtworks.xstream.converters.Converter;
-import com.thoughtworks.xstream.converters.MarshallingContext;
-import com.thoughtworks.xstream.converters.UnmarshallingContext;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.persistence.XmlArrayList;
+import cucumber.deps.com.thoughtworks.xstream.converters.Converter;
+import cucumber.deps.com.thoughtworks.xstream.converters.MarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.converters.UnmarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.persistence.XmlArrayList;
 
 import java.io.File;
 import java.io.FileInputStream;

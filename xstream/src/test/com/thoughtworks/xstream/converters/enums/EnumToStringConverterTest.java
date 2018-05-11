@@ -8,12 +8,12 @@
  *
  * Created on 14. March 2013 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.enums;
+package cucumber.deps.com.thoughtworks.xstream.converters.enums;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 import junit.framework.TestCase;
 
 

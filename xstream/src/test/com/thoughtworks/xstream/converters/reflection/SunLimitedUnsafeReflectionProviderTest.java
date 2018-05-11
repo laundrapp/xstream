@@ -5,7 +5,7 @@
  *
  * Created on 08. January 2014 by Joerg Schaible, factored out from SunUnsafeReflectionProviderTest
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 public class SunLimitedUnsafeReflectionProviderTest extends SunUnsafeReflectionProviderTest {
 

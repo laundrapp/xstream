@@ -9,7 +9,7 @@
  * 
  * Created on 06. July 2006 by Guilherme Silveira
  */
-package com.thoughtworks.xstream.persistence;
+package cucumber.deps.com.thoughtworks.xstream.persistence;
 
 import java.util.ArrayList;
 import java.util.HashMap;

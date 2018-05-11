@@ -10,11 +10,11 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.reflection.FieldDictionary;
-import com.thoughtworks.xstream.converters.reflection.FieldKey;
-import com.thoughtworks.xstream.converters.reflection.FieldKeySorter;
-import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldKey;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldKeySorter;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
 
 import java.util.Comparator;
 import java.util.Map;

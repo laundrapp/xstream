@@ -9,13 +9,13 @@
  * 
  * Created on 04. June 2006 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.copy;
+package cucumber.deps.com.thoughtworks.xstream.io.copy;
 
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest;
-import com.thoughtworks.xstream.io.xml.CompactWriter;
-import com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.CompactWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
 
 import org.xmlpull.v1.XmlPullParserException;
 

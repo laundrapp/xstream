@@ -13,8 +13,8 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 import java.util.ArrayList;
 import java.util.HashMap;

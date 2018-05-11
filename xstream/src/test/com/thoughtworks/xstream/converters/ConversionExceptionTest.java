@@ -8,9 +8,9 @@
  * 
  * Created on 07. November 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters;
+package cucumber.deps.com.thoughtworks.xstream.converters;
 
-import com.thoughtworks.xstream.mapper.CannotResolveClassException;
+import cucumber.deps.com.thoughtworks.xstream.mapper.CannotResolveClassException;
 
 import junit.framework.TestCase;
 

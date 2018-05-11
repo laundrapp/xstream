@@ -9,10 +9,10 @@
  * 
  * Created on 07. March 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.core.util.QuickWriter;
-import com.thoughtworks.xstream.io.StreamException;
+import cucumber.deps.com.thoughtworks.xstream.core.util.QuickWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.StreamException;
 
 import java.io.StringWriter;
 

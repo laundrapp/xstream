@@ -12,7 +12,7 @@ package com.thoughtworks.acceptance;
 
 import java.util.UUID;
 
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 public class Basic15TypesTest extends AbstractAcceptanceTest {
 

@@ -9,7 +9,7 @@
  * 
  * Created on 28. July 2006 by Guilerme Silveira
  */
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
 import java.nio.charset.Charset;
 

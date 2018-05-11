@@ -9,9 +9,9 @@
  * 
  * Created on 22. November 2004 by Mauro Talevi
  */
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
-import com.thoughtworks.xstream.testutil.TimeZoneChanger;
+import cucumber.deps.com.thoughtworks.xstream.testutil.TimeZoneChanger;
 
 import junit.framework.TestCase;
 

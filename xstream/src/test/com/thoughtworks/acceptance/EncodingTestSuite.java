@@ -26,8 +26,8 @@ import junit.framework.TestSuite;
 
 import com.bea.xml.stream.MXParserFactory;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamDriver;
 
 
 /**

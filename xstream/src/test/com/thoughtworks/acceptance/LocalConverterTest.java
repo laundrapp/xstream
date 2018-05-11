@@ -10,11 +10,11 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.SingleValueConverter;
-import com.thoughtworks.xstream.converters.basic.BooleanConverter;
-import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
-import com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.BooleanConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
 
 
 /**

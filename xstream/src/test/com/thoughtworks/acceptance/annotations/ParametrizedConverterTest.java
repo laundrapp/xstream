@@ -17,18 +17,18 @@ import java.util.Map;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import com.thoughtworks.xstream.annotations.XStreamConverter;
-import com.thoughtworks.xstream.annotations.XStreamConverters;
-import com.thoughtworks.xstream.annotations.XStreamInclude;
-import com.thoughtworks.xstream.converters.basic.BooleanConverter;
-import com.thoughtworks.xstream.converters.collections.MapConverter;
-import com.thoughtworks.xstream.converters.extended.NamedMapConverter;
-import com.thoughtworks.xstream.converters.extended.ToAttributedValueConverter;
-import com.thoughtworks.xstream.converters.extended.ToStringConverter;
-import com.thoughtworks.xstream.converters.javabean.JavaBeanConverter;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAlias;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamConverter;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamConverters;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamInclude;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.BooleanConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.collections.MapConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.NamedMapConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.ToAttributedValueConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.ToStringConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.javabean.JavaBeanConverter;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 
 /**

@@ -9,10 +9,10 @@
  * 
  * Created on 22. February 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.basic;
+package cucumber.deps.com.thoughtworks.xstream.converters.basic;
 
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.testutil.TimeZoneChanger;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.testutil.TimeZoneChanger;
 
 import junit.framework.TestCase;
 

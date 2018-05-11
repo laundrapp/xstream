@@ -9,9 +9,9 @@
  * 
  * Created on 29. September 2004 by James Strachan
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
 
 import java.io.StringReader;
 

@@ -10,12 +10,12 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.converters.ConverterLookup;
-import com.thoughtworks.xstream.core.ReferenceByIdMarshaller;
-import com.thoughtworks.xstream.core.ReferenceByIdMarshallingStrategy;
-import com.thoughtworks.xstream.core.TreeMarshaller;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConverterLookup;
+import cucumber.deps.com.thoughtworks.xstream.core.ReferenceByIdMarshaller;
+import cucumber.deps.com.thoughtworks.xstream.core.ReferenceByIdMarshallingStrategy;
+import cucumber.deps.com.thoughtworks.xstream.core.TreeMarshaller;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 
 public class BeanIDCircularReferenceTest extends AbstractReferenceTest {

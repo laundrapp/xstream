@@ -8,7 +8,7 @@
  * 
  * Created on 14. October 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.core.util;
+package cucumber.deps.com.thoughtworks.xstream.core.util;
 
 import junit.framework.TestCase;
 

@@ -9,7 +9,7 @@
  * 
  * Created on 09. September 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import org.jdom.Element;
 

@@ -11,9 +11,9 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.core.JVM;
-import com.thoughtworks.xstream.io.StreamException;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.io.StreamException;
 
 public class ErrorTest extends AbstractAcceptanceTest {
 

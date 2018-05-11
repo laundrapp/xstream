@@ -9,7 +9,7 @@
  * 
  * Created on 26. September 2003 by Joe Walnes
  */
-package com.thoughtworks.xstream;
+package cucumber.deps.com.thoughtworks.xstream;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.acceptance.objects.StandardObject;
@@ -21,15 +21,15 @@ import com.thoughtworks.acceptance.someobjects.U;
 import com.thoughtworks.acceptance.someobjects.WithList;
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.converters.Converter;
-import com.thoughtworks.xstream.converters.MarshallingContext;
-import com.thoughtworks.xstream.converters.UnmarshallingContext;
-import com.thoughtworks.xstream.core.JVM;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.StreamException;
-import com.thoughtworks.xstream.io.xml.AbstractDocumentReader;
-import com.thoughtworks.xstream.security.NoTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.converters.Converter;
+import cucumber.deps.com.thoughtworks.xstream.converters.MarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.converters.UnmarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.StreamException;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.AbstractDocumentReader;
+import cucumber.deps.com.thoughtworks.xstream.security.NoTypePermission;
 
 import junit.framework.TestCase;
 
@@ -80,9 +80,9 @@ public class XStreamTest extends TestCase {
 
     public void testUnmarshalsObjectFromXmlWithClassContainingUnderscores() {
         String xml =
-                "<com.thoughtworks.xstream.XStreamTest_-U_U>" +
+                "<cucumber.deps.com.thoughtworks.xstream.XStreamTest_-U_U>" +
                 "  <aStr>custom value</aStr>" +
-                "</com.thoughtworks.xstream.XStreamTest_-U_U>";
+                "</cucumber.deps.com.thoughtworks.xstream.XStreamTest_-U_U>";
 
         U_U u = (U_U) xstream.fromXML(xml);
 
@@ -218,7 +218,7 @@ public class XStreamTest extends TestCase {
 
         String xml = xstream.toXML(obj);
 
-        String expected = "<com.thoughtworks.xstream.XStreamTest_-Person/>";
+        String expected = "<cucumber.deps.com.thoughtworks.xstream.XStreamTest_-Person/>";
 
         assertEquals(expected, xml);
 

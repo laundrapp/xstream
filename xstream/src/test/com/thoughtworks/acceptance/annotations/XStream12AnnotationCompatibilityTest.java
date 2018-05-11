@@ -11,10 +11,10 @@
 package com.thoughtworks.acceptance.annotations;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.AnnotationProvider;
-import com.thoughtworks.xstream.annotations.AnnotationReflectionConverter;
-import com.thoughtworks.xstream.annotations.Annotations;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.annotations.AnnotationProvider;
+import cucumber.deps.com.thoughtworks.xstream.annotations.AnnotationReflectionConverter;
+import cucumber.deps.com.thoughtworks.xstream.annotations.Annotations;
 
 
 /**

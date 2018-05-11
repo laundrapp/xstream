@@ -8,9 +8,9 @@
  * 
  * Created on 17. May 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
-import com.thoughtworks.xstream.core.util.OrderRetainingMap;
+import cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap;
 
 import junit.framework.TestCase;
 

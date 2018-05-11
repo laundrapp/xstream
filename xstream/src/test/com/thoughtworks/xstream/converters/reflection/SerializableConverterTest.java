@@ -8,10 +8,10 @@
  * 
  * Created on 29. July 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import junit.framework.TestCase;
 

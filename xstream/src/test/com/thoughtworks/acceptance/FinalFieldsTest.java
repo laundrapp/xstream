@@ -12,10 +12,10 @@
 package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.reflection.ObjectAccessException;
-import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ObjectAccessException;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 public class FinalFieldsTest extends AbstractAcceptanceTest {
 

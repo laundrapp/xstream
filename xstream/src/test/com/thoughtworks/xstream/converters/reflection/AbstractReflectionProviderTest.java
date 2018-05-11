@@ -9,7 +9,7 @@
  * 
  * Created on 14. May 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 import org.jmock.Mock;
 import org.jmock.MockObjectTestCase;

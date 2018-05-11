@@ -9,7 +9,7 @@
  * Created on 30. July 2011 by Joerg Schaible
  */
 
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
 import java.io.StringReader;
 import java.io.StringWriter;
@@ -18,27 +18,27 @@ import com.thoughtworks.acceptance.objects.OpenSourceSoftware;
 import com.thoughtworks.acceptance.objects.Software;
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.converters.SingleValueConverterWrapper;
-import com.thoughtworks.xstream.converters.basic.IntConverter;
-import com.thoughtworks.xstream.converters.basic.StringConverter;
-import com.thoughtworks.xstream.converters.collections.ArrayConverter;
-import com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
-import com.thoughtworks.xstream.converters.reflection.ReflectionProvider;
-import com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider;
-import com.thoughtworks.xstream.core.ClassLoaderReference;
-import com.thoughtworks.xstream.core.DefaultConverterLookup;
-import com.thoughtworks.xstream.core.TreeMarshaller;
-import com.thoughtworks.xstream.core.TreeUnmarshaller;
-import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.xml.CompactWriter;
-import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
-import com.thoughtworks.xstream.mapper.ArrayMapper;
-import com.thoughtworks.xstream.mapper.ClassAliasingMapper;
-import com.thoughtworks.xstream.mapper.DefaultImplementationsMapper;
-import com.thoughtworks.xstream.mapper.DefaultMapper;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.IntConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.collections.ArrayConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.core.ClassLoaderReference;
+import cucumber.deps.com.thoughtworks.xstream.core.DefaultConverterLookup;
+import cucumber.deps.com.thoughtworks.xstream.core.TreeMarshaller;
+import cucumber.deps.com.thoughtworks.xstream.core.TreeUnmarshaller;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamDriver;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.CompactWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
+import cucumber.deps.com.thoughtworks.xstream.mapper.ArrayMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.ClassAliasingMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.DefaultImplementationsMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.DefaultMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 import junit.framework.TestCase;
 

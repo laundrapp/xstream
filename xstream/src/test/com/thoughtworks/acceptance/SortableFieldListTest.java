@@ -10,10 +10,10 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.reflection.FieldDictionary;
-import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
-import com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorter;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorter;
 
 public class SortableFieldListTest extends AbstractAcceptanceTest {
 

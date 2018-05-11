@@ -8,9 +8,9 @@
  * 
  * Created on 19. October 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
+import cucumber.deps.com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
 
 import junit.framework.TestCase;
 

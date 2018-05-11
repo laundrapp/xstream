@@ -9,7 +9,7 @@
  * 
  * Created on 06. April 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.enums;
+package cucumber.deps.com.thoughtworks.xstream.converters.enums;
 
 enum BigEnum {
     A1, B1, C1, D1, E1, F1, G1, H1, I1, J1, K1, L1, M1, N1, O1, P1, Q1, R1, S1, T1, U1, V1, W1, X1, Y1, Z1,

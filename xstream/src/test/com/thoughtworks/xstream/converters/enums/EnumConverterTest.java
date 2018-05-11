@@ -9,9 +9,9 @@
  * 
  * Created on 18. March 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.enums;
+package cucumber.deps.com.thoughtworks.xstream.converters.enums;
 
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 import junit.framework.TestCase;
 
 // ***** READ THIS *****

@@ -8,9 +8,9 @@
  * 
  * Created on 24. June 2012 by Joerg Schaible 
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
 
 import org.jdom2.Document;
 import org.jdom2.input.SAXBuilder;

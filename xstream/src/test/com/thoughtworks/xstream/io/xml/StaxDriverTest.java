@@ -8,13 +8,13 @@
  * 
  * Created on 07. July 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import com.bea.xml.stream.MXParserFactory;
 import com.bea.xml.stream.XMLOutputFactoryBase;
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.StreamException;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.io.StreamException;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLOutputFactory;

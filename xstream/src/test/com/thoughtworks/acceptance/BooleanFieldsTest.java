@@ -10,7 +10,7 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.converters.basic.BooleanConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.BooleanConverter;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -9,19 +9,19 @@
  * 
  * Created on 30. April 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.io;
+package cucumber.deps.com.thoughtworks.xstream.io;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 import com.thoughtworks.acceptance.objects.SampleLists;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.UnmarshallingContext;
-import com.thoughtworks.xstream.converters.collections.CollectionConverter;
-import com.thoughtworks.xstream.core.JVM;
-import com.thoughtworks.xstream.io.binary.BinaryStreamDriver;
-import com.thoughtworks.xstream.io.xml.XppDomDriver;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.UnmarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.converters.collections.CollectionConverter;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.io.binary.BinaryStreamDriver;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.XppDomDriver;
 
 import junit.framework.Assert;
 import junit.framework.AssertionFailedError;
@@ -43,7 +43,7 @@ public class DriverEndToEndTestSuite extends TestSuite {
         addDriverTest(new DomDriver());
         addDriverTest(new JDomDriver());
         if (JVM.is15()) {
-            Class driverType = JVM.loadClassForName("com.thoughtworks.xstream.io.xml.JDom2Driver");
+            Class driverType = JVM.loadClassForName("cucumber.deps.com.thoughtworks.xstream.io.xml.JDom2Driver");
             try {
                 addDriverTest((HierarchicalStreamDriver)driverType.newInstance());
             } catch (InstantiationException e) {
@@ -56,7 +56,7 @@ public class DriverEndToEndTestSuite extends TestSuite {
         addDriverTest(new KXml2Driver());
         addDriverTest(new StaxDriver());
         if (JVM.is16()) {
-            Class driverType = JVM.loadClassForName("com.thoughtworks.xstream.io.xml.StandardStaxDriver");
+            Class driverType = JVM.loadClassForName("cucumber.deps.com.thoughtworks.xstream.io.xml.StandardStaxDriver");
             try {
                 addDriverTest((HierarchicalStreamDriver)driverType.newInstance());
             } catch (InstantiationException e) {
@@ -72,7 +72,7 @@ public class DriverEndToEndTestSuite extends TestSuite {
         addDriverTest(new XppDomDriver());
         addDriverTest(new XppDriver());
         if (JVM.is14()) {
-//            Class driverType = JVM.loadClassForName("com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver");
+//            Class driverType = JVM.loadClassForName("cucumber.deps.com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver");
 //            try {
 //                addDriverTest((HierarchicalStreamDriver)driverType.newInstance());
 //            } catch (InstantiationException e) {

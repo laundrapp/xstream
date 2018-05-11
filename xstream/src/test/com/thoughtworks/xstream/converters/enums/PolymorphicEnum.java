@@ -9,7 +9,7 @@
  * 
  * Created on 06. April 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.enums;
+package cucumber.deps.com.thoughtworks.xstream.converters.enums;
 
 enum PolymorphicEnum implements Fruit {
     A() {

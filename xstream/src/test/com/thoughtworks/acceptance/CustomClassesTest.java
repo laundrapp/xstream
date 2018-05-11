@@ -12,8 +12,8 @@
 package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ReflectionConverter;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 import java.io.StringReader;
 

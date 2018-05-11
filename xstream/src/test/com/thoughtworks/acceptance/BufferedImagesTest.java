@@ -10,7 +10,7 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 import junit.framework.TestSuite;
 

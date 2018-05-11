@@ -13,11 +13,11 @@ package com.thoughtworks.acceptance.annotations;
 import java.io.Serializable;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
-import com.thoughtworks.xstream.annotations.XStreamConverter;
-import com.thoughtworks.xstream.converters.extended.ToStringConverter;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAlias;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAsAttribute;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.ToStringConverter;
 
 
 /**

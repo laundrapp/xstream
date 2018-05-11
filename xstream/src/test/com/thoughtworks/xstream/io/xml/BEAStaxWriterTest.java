@@ -8,7 +8,7 @@
  * 
  * Created on 03. November 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 public final class BEAStaxWriterTest extends AbstractStaxWriterTest {
     protected void assertXmlProducedIs(String expected) {

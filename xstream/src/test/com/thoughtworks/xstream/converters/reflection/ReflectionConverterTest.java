@@ -9,16 +9,16 @@
  * 
  * Created on 07. March 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.Converter;
-import com.thoughtworks.xstream.core.ClassLoaderReference;
-import com.thoughtworks.xstream.core.util.CompositeClassLoader;
-import com.thoughtworks.xstream.mapper.AttributeMapper;
-import com.thoughtworks.xstream.mapper.DefaultMapper;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.Converter;
+import cucumber.deps.com.thoughtworks.xstream.core.ClassLoaderReference;
+import cucumber.deps.com.thoughtworks.xstream.core.util.CompositeClassLoader;
+import cucumber.deps.com.thoughtworks.xstream.mapper.AttributeMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.DefaultMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 import junit.framework.TestCase;
 

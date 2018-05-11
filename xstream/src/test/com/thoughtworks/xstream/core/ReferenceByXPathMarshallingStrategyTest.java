@@ -9,11 +9,11 @@
  * 
  * Created on 03. April 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.core;
+package cucumber.deps.com.thoughtworks.xstream.core;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import java.util.ArrayList;
 import java.util.List;

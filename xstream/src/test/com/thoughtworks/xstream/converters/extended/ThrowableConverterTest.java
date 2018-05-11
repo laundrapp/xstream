@@ -9,10 +9,10 @@
  * 
  * Created on 29. May 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import java.math.BigDecimal;
 

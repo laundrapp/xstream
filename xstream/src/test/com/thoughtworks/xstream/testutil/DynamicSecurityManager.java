@@ -8,7 +8,7 @@
  * 
  * Created on 14. March 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.testutil;
+package cucumber.deps.com.thoughtworks.xstream.testutil;
 
 import java.io.FilePermission;
 import java.security.AccessControlContext;

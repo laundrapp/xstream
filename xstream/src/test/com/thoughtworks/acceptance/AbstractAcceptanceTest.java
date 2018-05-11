@@ -40,15 +40,15 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
-import com.thoughtworks.xstream.io.binary.BinaryStreamWriter;
-import com.thoughtworks.xstream.io.binary.BinaryStreamReader;
-import com.thoughtworks.xstream.security.ArrayTypePermission;
-import com.thoughtworks.xstream.security.InterfaceTypePermission;
-import com.thoughtworks.xstream.security.NoTypePermission;
-import com.thoughtworks.xstream.security.NullPermission;
-import com.thoughtworks.xstream.security.PrimitiveTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamDriver;
+import cucumber.deps.com.thoughtworks.xstream.io.binary.BinaryStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.binary.BinaryStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.security.ArrayTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.InterfaceTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.NoTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.security.NullPermission;
+import cucumber.deps.com.thoughtworks.xstream.security.PrimitiveTypePermission;
 
 public abstract class AbstractAcceptanceTest extends TestCase {
 

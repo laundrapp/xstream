@@ -9,7 +9,7 @@
  * 
  * Created on 15. January 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.testutil;
+package cucumber.deps.com.thoughtworks.xstream.testutil;
 
 import java.util.TimeZone;
 

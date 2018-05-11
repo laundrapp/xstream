@@ -17,7 +17,7 @@ import java.util.Comparator;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 public class TreeMapAndTreeSetTest extends AbstractAcceptanceTest {
     

@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.InitializationException;
+import cucumber.deps.com.thoughtworks.xstream.InitializationException;
 
 /**
  * @author J&ouml;rg Schaible

@@ -12,10 +12,10 @@ package com.thoughtworks.acceptance.annotations;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
-import com.thoughtworks.xstream.annotations.XStreamImplicit;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAlias;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAsAttribute;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamImplicit;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

@@ -8,7 +8,7 @@
  * 
  * Created on 19. October 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 /**
  * @author J&ouml;rg Schaible

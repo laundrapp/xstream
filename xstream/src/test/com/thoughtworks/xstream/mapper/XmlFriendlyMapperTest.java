@@ -8,9 +8,9 @@
  * 
  * Created on 13. February 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.mapper;
+package cucumber.deps.com.thoughtworks.xstream.mapper;
 
-import com.thoughtworks.xstream.core.util.CompositeClassLoader;
+import cucumber.deps.com.thoughtworks.xstream.core.util.CompositeClassLoader;
 
 import junit.framework.TestCase;
 

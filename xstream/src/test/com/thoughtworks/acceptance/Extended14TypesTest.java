@@ -10,8 +10,8 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.testutil.TimeZoneChanger;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.testutil.TimeZoneChanger;
 
 import javax.security.auth.Subject;
 import javax.security.auth.x500.X500Principal;

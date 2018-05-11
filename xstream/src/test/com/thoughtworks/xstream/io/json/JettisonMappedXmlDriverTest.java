@@ -8,16 +8,16 @@
  * 
  * Created on 30. April 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.json;
+package cucumber.deps.com.thoughtworks.xstream.io.json;
 
 import com.thoughtworks.acceptance.objects.Category;
 import com.thoughtworks.acceptance.objects.OwnerOfExternalizable;
 import com.thoughtworks.acceptance.objects.Product;
 import com.thoughtworks.acceptance.objects.SomethingExternalizable;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.core.JVM;
-import com.thoughtworks.xstream.testutil.TimeZoneChanger;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.testutil.TimeZoneChanger;
 
 import junit.framework.TestCase;
 
@@ -293,7 +293,7 @@ public class JettisonMappedXmlDriverTest extends TestCase {
         sc._foo__$_ = "bar";
         String json = xstream.toXML(sc);
         assertEquals(
-            "{'com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest$SpecialCharacters':{'_foo__$_':'bar'}}"
+            "{'cucumber.deps.com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest$SpecialCharacters':{'_foo__$_':'bar'}}"
                 .replace('\'', '"'), json);
         SpecialCharacters sc2 = (SpecialCharacters)xstream.fromXML(json);
         assertEquals(json, xstream.toXML(sc2));

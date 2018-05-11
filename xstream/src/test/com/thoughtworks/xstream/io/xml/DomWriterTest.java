@@ -9,7 +9,7 @@
  * 
  * Created on 05. September 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -17,7 +17,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
+import cucumber.deps.com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
 
 public class DomWriterTest extends AbstractDocumentWriterTest {
 

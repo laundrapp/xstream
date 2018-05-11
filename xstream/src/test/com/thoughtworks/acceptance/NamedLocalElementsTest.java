@@ -17,9 +17,9 @@ import java.util.Map;
 
 import com.thoughtworks.acceptance.objects.Category;
 import com.thoughtworks.acceptance.objects.SampleMaps;
-import com.thoughtworks.xstream.converters.extended.NamedArrayConverter;
-import com.thoughtworks.xstream.converters.extended.NamedCollectionConverter;
-import com.thoughtworks.xstream.converters.extended.NamedMapConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.NamedArrayConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.NamedCollectionConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.NamedMapConverter;
 
 /**
  * Tests named elements of collections and maps.

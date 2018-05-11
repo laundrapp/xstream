@@ -20,8 +20,8 @@ import com.thoughtworks.acceptance.someobjects.Protocol;
 import com.thoughtworks.acceptance.someobjects.WithList;
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
-import com.thoughtworks.xstream.io.xml.QNameMap;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamDriver;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.QNameMap;
 
 public class QNameMappedConcreteClassesTest extends AbstractAcceptanceTest {
 

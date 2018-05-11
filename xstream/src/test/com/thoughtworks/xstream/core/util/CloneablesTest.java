@@ -8,11 +8,11 @@
  * 
  * Created 18.11.2010 by Joerg Schaible.
  */
-package com.thoughtworks.xstream.core.util;
+package cucumber.deps.com.thoughtworks.xstream.core.util;
 
 import java.util.Arrays;
 
-import com.thoughtworks.xstream.converters.reflection.ObjectAccessException;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ObjectAccessException;
 
 import junit.framework.TestCase;
 

@@ -9,7 +9,7 @@
  * 
  * Created on 08. January 2014 by Joerg Schaible, renamed from Sun14RelfectrionProviderTest.
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 public class SunUnsafeReflectionProviderTest extends AbstractReflectionProviderTest {
 

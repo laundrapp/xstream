@@ -12,16 +12,16 @@ package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.OpenSourceSoftware;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.ConverterLookup;
-import com.thoughtworks.xstream.converters.reflection.FieldDictionary;
-import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
-import com.thoughtworks.xstream.converters.reflection.XStream12FieldKeySorter;
-import com.thoughtworks.xstream.core.ReferenceByXPathMarshallingStrategy;
-import com.thoughtworks.xstream.core.ReferenceByXPathUnmarshaller;
-import com.thoughtworks.xstream.core.TreeUnmarshaller;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConverterLookup;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.FieldDictionary;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.XStream12FieldKeySorter;
+import cucumber.deps.com.thoughtworks.xstream.core.ReferenceByXPathMarshallingStrategy;
+import cucumber.deps.com.thoughtworks.xstream.core.ReferenceByXPathUnmarshaller;
+import cucumber.deps.com.thoughtworks.xstream.core.TreeUnmarshaller;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 import java.util.ArrayList;
 import java.util.HashMap;

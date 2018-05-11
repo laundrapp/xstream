@@ -12,7 +12,7 @@
 package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.testutil.TimeZoneChanger;
+import cucumber.deps.com.thoughtworks.xstream.testutil.TimeZoneChanger;
 
 import java.util.ArrayList;
 import java.util.Calendar;

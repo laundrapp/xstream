@@ -9,17 +9,17 @@
  * 
  * Created on 06. March 2004 by Mauro Talevi
  */
-package com.thoughtworks.xstream.core;
+package cucumber.deps.com.thoughtworks.xstream.core;
 
 import java.util.BitSet;
 
 import junit.framework.TestCase;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.Converter;
-import com.thoughtworks.xstream.converters.SingleValueConverterWrapper;
-import com.thoughtworks.xstream.converters.basic.StringConverter;
-import com.thoughtworks.xstream.converters.collections.BitSetConverter;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.Converter;
+import cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.StringConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.collections.BitSetConverter;
 
 /**
  * @author Guilherme Silveira

@@ -8,7 +8,7 @@
  *
  * Created on 11. February 2008 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.enums;
+package cucumber.deps.com.thoughtworks.xstream.converters.enums;
 
 /**
  * A fruit used as base for the polymorphic enum.

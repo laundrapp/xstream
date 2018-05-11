@@ -9,7 +9,7 @@
  * 
  * Created on 07. March 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 import java.io.Serializable;
 

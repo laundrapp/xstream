@@ -9,14 +9,14 @@
  * 
  * Created on 12. April 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.javabean;
+package cucumber.deps.com.thoughtworks.xstream.converters.javabean;
 
 import junit.framework.TestCase;
 
 import java.util.Comparator;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 
 public class JavaBeanConverterTest extends TestCase {

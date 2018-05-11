@@ -9,7 +9,7 @@
  * 
  * Created on 22. June 2006 by Mauro Talevi
  */
-package com.thoughtworks.xstream.io.json;
+package cucumber.deps.com.thoughtworks.xstream.io.json;
 
 import java.awt.Color;
 import java.io.InputStream;
@@ -34,8 +34,8 @@ import com.thoughtworks.acceptance.objects.Original;
 import com.thoughtworks.acceptance.objects.OwnerOfExternalizable;
 import com.thoughtworks.acceptance.objects.Replaced;
 import com.thoughtworks.acceptance.objects.SomethingExternalizable;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 import junit.framework.TestCase;
 

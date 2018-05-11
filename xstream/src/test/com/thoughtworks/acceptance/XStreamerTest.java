@@ -12,10 +12,10 @@
 package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.OpenSourceSoftware;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.XStreamer;
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.security.TypePermission;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStreamer;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.security.TypePermission;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;

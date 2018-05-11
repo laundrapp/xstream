@@ -14,7 +14,7 @@ package com.thoughtworks.acceptance;
 import com.thoughtworks.acceptance.objects.Hardware;
 import com.thoughtworks.acceptance.objects.Software;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 import java.util.ArrayList;
 import java.util.Collections;

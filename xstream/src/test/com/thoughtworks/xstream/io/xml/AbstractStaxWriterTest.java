@@ -8,11 +8,11 @@
  * 
  * Created on 03. November 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import org.apache.oro.text.perl.Perl5Util;
 

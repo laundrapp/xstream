@@ -9,7 +9,7 @@
  * 
  * Created on 23. July 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.core;
+package cucumber.deps.com.thoughtworks.xstream.core;
 
 import junit.framework.TestCase;
 
@@ -17,7 +17,7 @@ public class JVMTest extends TestCase {
 
     public void testDoesIgnoreLinkageErrors() {
         try {
-            assertNull(JVM.loadClassForName("com.thoughtworks.xstream.core.EvilClass"));
+            assertNull(JVM.loadClassForName("cucumber.deps.com.thoughtworks.xstream.core.EvilClass"));
         } catch (LinkageError error) {
             fail("Error thrown");
         }

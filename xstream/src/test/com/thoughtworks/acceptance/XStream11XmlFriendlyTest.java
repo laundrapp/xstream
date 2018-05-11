@@ -12,8 +12,8 @@
 package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.xml.XStream11XmlFriendlyReplacer;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.XStream11XmlFriendlyReplacer;
 
 public class XStream11XmlFriendlyTest extends AbstractAcceptanceTest {
 

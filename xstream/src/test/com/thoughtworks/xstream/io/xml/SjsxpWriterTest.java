@@ -8,7 +8,7 @@
  * 
  * Created on 30. September 2011 by Joerg Schaible, renamed from SjsxpStaxWriterTest
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

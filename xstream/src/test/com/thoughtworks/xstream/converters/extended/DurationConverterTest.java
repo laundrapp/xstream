@@ -8,9 +8,9 @@
  * 
  * Created on 21. September 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
-import com.thoughtworks.xstream.converters.SingleValueConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverter;
 
 import junit.framework.TestCase;
 

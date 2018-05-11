@@ -8,13 +8,13 @@
  * 
  * Created on 10. April 2007 by Guilherme Silveira
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 import java.lang.reflect.Field;
 import java.util.Map;
 
-import com.thoughtworks.xstream.core.util.OrderRetainingMap;
-import com.thoughtworks.xstream.io.StreamException;
+import cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap;
+import cucumber.deps.com.thoughtworks.xstream.io.StreamException;
 
 import junit.framework.TestCase;
 

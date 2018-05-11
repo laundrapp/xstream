@@ -8,10 +8,10 @@
  * 
  * Created on 12. February 2008 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.enums;
+package cucumber.deps.com.thoughtworks.xstream.converters.enums;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAsAttribute;
 
 import junit.framework.TestCase;
 

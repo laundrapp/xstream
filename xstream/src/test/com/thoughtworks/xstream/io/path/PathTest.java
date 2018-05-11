@@ -9,7 +9,7 @@
  * 
  * Created on 02. September 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.path;
+package cucumber.deps.com.thoughtworks.xstream.io.path;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

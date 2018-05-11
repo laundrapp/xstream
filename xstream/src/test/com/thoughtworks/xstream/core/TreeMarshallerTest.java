@@ -9,10 +9,10 @@
  * 
  * Created on 25. March 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.core;
+package cucumber.deps.com.thoughtworks.xstream.core;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 public class TreeMarshallerTest extends AbstractAcceptanceTest {
 

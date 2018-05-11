@@ -9,12 +9,12 @@
  * 
  * Created on 14. August 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import com.megginson.sax.DataWriter;
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import junit.framework.TestCase;
 

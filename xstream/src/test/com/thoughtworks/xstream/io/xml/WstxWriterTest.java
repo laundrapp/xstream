@@ -8,7 +8,7 @@
  * 
  * Created on 29. September 2011 by Joerg Schaible, renamed from WoodstoxStaxWriterTest
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import com.ctc.wstx.stax.WstxOutputFactory;
 

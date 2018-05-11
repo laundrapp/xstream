@@ -18,13 +18,13 @@ import java.util.LinkedList;
 import com.thoughtworks.acceptance.objects.Software;
 import com.thoughtworks.acceptance.objects.StandardObject;
 import com.thoughtworks.acceptance.someobjects.WithList;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
-import com.thoughtworks.xstream.core.ClassLoaderReference;
-import com.thoughtworks.xstream.mapper.CannotResolveClassException;
-import com.thoughtworks.xstream.mapper.DefaultMapper;
-import com.thoughtworks.xstream.mapper.Mapper;
-import com.thoughtworks.xstream.mapper.MapperWrapper;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider;
+import cucumber.deps.com.thoughtworks.xstream.core.ClassLoaderReference;
+import cucumber.deps.com.thoughtworks.xstream.mapper.CannotResolveClassException;
+import cucumber.deps.com.thoughtworks.xstream.mapper.DefaultMapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.mapper.MapperWrapper;
 
 public class CustomMapperTest extends AbstractAcceptanceTest {
 

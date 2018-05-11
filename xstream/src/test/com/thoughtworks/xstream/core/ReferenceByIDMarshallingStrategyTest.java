@@ -8,11 +8,11 @@
  * 
  * Created on 07. March 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.core;
+package cucumber.deps.com.thoughtworks.xstream.core;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.acceptance.someobjects.WithNamedList;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import java.util.ArrayList;
 

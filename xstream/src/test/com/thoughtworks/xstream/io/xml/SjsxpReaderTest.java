@@ -8,10 +8,10 @@
  * 
  * Created on 30. September 2011 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.io.HierarchicalStreamDriver;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamDriver;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

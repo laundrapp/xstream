@@ -10,8 +10,8 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;
 
 
 public class XmlFriendlyDollarOnlyTest extends XmlFriendlyTest {

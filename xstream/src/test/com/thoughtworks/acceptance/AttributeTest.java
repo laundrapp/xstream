@@ -15,9 +15,9 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.basic.AbstractSingleValueConverter;
-import com.thoughtworks.xstream.testutil.TimeZoneChanger;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.basic.AbstractSingleValueConverter;
+import cucumber.deps.com.thoughtworks.xstream.testutil.TimeZoneChanger;
 
 /**
  * @author Paul Hammant

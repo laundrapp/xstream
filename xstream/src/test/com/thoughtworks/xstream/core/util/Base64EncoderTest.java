@@ -9,7 +9,7 @@
  * 
  * Created on 06. August 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.core.util;
+package cucumber.deps.com.thoughtworks.xstream.core.util;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 

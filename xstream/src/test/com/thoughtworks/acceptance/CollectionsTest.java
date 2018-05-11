@@ -14,8 +14,8 @@ package com.thoughtworks.acceptance;
 import com.thoughtworks.acceptance.objects.Hardware;
 import com.thoughtworks.acceptance.objects.SampleLists;
 import com.thoughtworks.acceptance.objects.Software;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.core.JVM;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.core.JVM;
 
 import java.util.ArrayList;
 import java.util.Arrays;

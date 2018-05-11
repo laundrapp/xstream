@@ -8,7 +8,7 @@
  * 
  * Created on 21. November 2008 by Joerg Schaible
  */
-package com.thoughtworks.xstream.persistence;
+package cucumber.deps.com.thoughtworks.xstream.persistence;
 
 import java.io.File;
 import java.net.MalformedURLException;

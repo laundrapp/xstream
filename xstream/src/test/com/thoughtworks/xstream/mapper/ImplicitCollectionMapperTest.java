@@ -9,7 +9,7 @@
  * 
  * Created on 16. February 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.mapper;
+package cucumber.deps.com.thoughtworks.xstream.mapper;
 
 import java.util.Map;
 
@@ -19,7 +19,7 @@ import com.thoughtworks.acceptance.objects.Product;
 import com.thoughtworks.acceptance.objects.SampleLists;
 import com.thoughtworks.acceptance.objects.SampleMaps;
 import com.thoughtworks.acceptance.objects.Software;
-import com.thoughtworks.xstream.core.ClassLoaderReference;
+import cucumber.deps.com.thoughtworks.xstream.core.ClassLoaderReference;
 
 import junit.framework.TestCase;
 

@@ -8,9 +8,9 @@
  * 
  * Created on 15. March 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io;
+package cucumber.deps.com.thoughtworks.xstream.io;
 
-import com.thoughtworks.xstream.io.xml.CompactWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.CompactWriter;
 
 import junit.framework.TestCase;
 

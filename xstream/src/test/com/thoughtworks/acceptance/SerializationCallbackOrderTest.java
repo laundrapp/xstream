@@ -11,7 +11,7 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.testutil.CallLog;
+import cucumber.deps.com.thoughtworks.xstream.testutil.CallLog;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

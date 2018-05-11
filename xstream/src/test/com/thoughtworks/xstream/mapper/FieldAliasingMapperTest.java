@@ -9,7 +9,7 @@
  * 
  * Created on 09. April 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.mapper;
+package cucumber.deps.com.thoughtworks.xstream.mapper;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 import com.thoughtworks.acceptance.objects.Software;

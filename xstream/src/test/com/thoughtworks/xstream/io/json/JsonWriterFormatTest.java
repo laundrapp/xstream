@@ -8,7 +8,7 @@
  *
  * Created on 02. September 2009 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.json;
+package cucumber.deps.com.thoughtworks.xstream.io.json;
 
 import java.io.StringWriter;
 import java.io.Writer;
@@ -26,16 +26,16 @@ import com.thoughtworks.acceptance.someobjects.Handler;
 import com.thoughtworks.acceptance.someobjects.Protocol;
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.Converter;
-import com.thoughtworks.xstream.converters.MarshallingContext;
-import com.thoughtworks.xstream.converters.UnmarshallingContext;
-import com.thoughtworks.xstream.converters.extended.ToStringConverter;
-import com.thoughtworks.xstream.core.util.OrderRetainingMap;
-import com.thoughtworks.xstream.io.ExtendedHierarchicalStreamWriterHelper;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.json.JsonWriter.Format;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.Converter;
+import cucumber.deps.com.thoughtworks.xstream.converters.MarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.converters.UnmarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.converters.extended.ToStringConverter;
+import cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap;
+import cucumber.deps.com.thoughtworks.xstream.io.ExtendedHierarchicalStreamWriterHelper;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.json.JsonWriter.Format;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.Test;

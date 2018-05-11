@@ -8,7 +8,7 @@
  * 
  * Created on 13. July 2011 by Joerg Schaible
  */
-package com.thoughtworks.xstream.core.util;
+package cucumber.deps.com.thoughtworks.xstream.core.util;
 
 import java.io.File;
 import java.lang.ref.PhantomReference;

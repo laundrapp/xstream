@@ -8,13 +8,13 @@
  * 
  * Created on 06. November 2008 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.json;
+package cucumber.deps.com.thoughtworks.xstream.io.json;
 
 import com.thoughtworks.acceptance.objects.Original;
 import com.thoughtworks.acceptance.objects.Replaced;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 
 import java.io.Writer;
 import java.util.ArrayList;

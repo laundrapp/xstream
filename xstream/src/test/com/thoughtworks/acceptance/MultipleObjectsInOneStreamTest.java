@@ -13,16 +13,16 @@ package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.Software;
 import com.thoughtworks.acceptance.objects.StandardObject;
-import com.thoughtworks.xstream.MarshallingStrategy;
-import com.thoughtworks.xstream.converters.ConverterLookup;
-import com.thoughtworks.xstream.converters.DataHolder;
-import com.thoughtworks.xstream.core.ReferenceByIdMarshaller;
-import com.thoughtworks.xstream.core.ReferenceByIdUnmarshaller;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
-import com.thoughtworks.xstream.mapper.Mapper;
-import com.thoughtworks.xstream.testutil.CallLog;
+import cucumber.deps.com.thoughtworks.xstream.MarshallingStrategy;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConverterLookup;
+import cucumber.deps.com.thoughtworks.xstream.converters.DataHolder;
+import cucumber.deps.com.thoughtworks.xstream.core.ReferenceByIdMarshaller;
+import cucumber.deps.com.thoughtworks.xstream.core.ReferenceByIdUnmarshaller;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.testutil.CallLog;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

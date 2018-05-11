@@ -8,12 +8,12 @@
  * 
  * Created on 3. August 2010 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.basic;
+package cucumber.deps.com.thoughtworks.xstream.converters.basic;
 
 import java.net.URI;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 /**
  * @author Carlos Roman

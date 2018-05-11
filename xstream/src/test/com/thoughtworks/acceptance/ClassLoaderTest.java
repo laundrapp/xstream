@@ -16,7 +16,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import com.thoughtworks.xstream.mapper.CannotResolveClassException;
+import cucumber.deps.com.thoughtworks.xstream.mapper.CannotResolveClassException;
 
 
 public class ClassLoaderTest extends AbstractAcceptanceTest {

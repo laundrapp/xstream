@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.thoughtworks.acceptance.objects.SampleDynamicProxy;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.security.ProxyTypePermission;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.security.ProxyTypePermission;
 
 
 public class DynamicProxyTest extends AbstractAcceptanceTest {

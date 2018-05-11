@@ -8,7 +8,7 @@
  * 
  * Created on 24. June 2012 by Joerg Schaible 
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import java.io.StringReader;
 import java.util.List;
@@ -22,7 +22,7 @@ import org.jdom2.output.XMLOutputter;
 
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 public class JDom2AcceptanceTest extends TestCase {
 

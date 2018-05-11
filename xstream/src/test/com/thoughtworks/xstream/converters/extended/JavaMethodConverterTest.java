@@ -9,7 +9,7 @@
  * 
  * Created on 23. December 2004 by Mauro Talevi
  */
-package com.thoughtworks.xstream.converters.extended;
+package cucumber.deps.com.thoughtworks.xstream.converters.extended;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
 
@@ -22,7 +22,7 @@ public class JavaMethodConverterTest extends AbstractAcceptanceTest {
         Method method = AnIntClass.class.getDeclaredMethod("setValue", new Class[]{Integer.TYPE});
         String expected =
                 "<method>\n" +
-                "  <class>com.thoughtworks.xstream.converters.extended.JavaMethodConverterTest$AnIntClass</class>\n" +
+                "  <class>cucumber.deps.com.thoughtworks.xstream.converters.extended.JavaMethodConverterTest$AnIntClass</class>\n" +
                 "  <name>setValue</name>\n" +
                 "  <parameter-types>\n" +
                 "    <class>int</class>\n" +
@@ -35,7 +35,7 @@ public class JavaMethodConverterTest extends AbstractAcceptanceTest {
         Method method = AnIntClass.class.getDeclaredMethod("privateMethod", new Class[]{});
         String expected =
                 "<method>\n" +
-                "  <class>com.thoughtworks.xstream.converters.extended.JavaMethodConverterTest$AnIntClass</class>\n" +
+                "  <class>cucumber.deps.com.thoughtworks.xstream.converters.extended.JavaMethodConverterTest$AnIntClass</class>\n" +
                 "  <name>privateMethod</name>\n" +
                 "  <parameter-types/>\n" +
                 "</method>";
@@ -46,7 +46,7 @@ public class JavaMethodConverterTest extends AbstractAcceptanceTest {
         Constructor constructor = AnIntClass.class.getDeclaredConstructor(new Class[] { int.class });
         String expected =
                 "<constructor>\n" +
-                "  <class>com.thoughtworks.xstream.converters.extended.JavaMethodConverterTest$AnIntClass</class>\n" +
+                "  <class>cucumber.deps.com.thoughtworks.xstream.converters.extended.JavaMethodConverterTest$AnIntClass</class>\n" +
                 "  <parameter-types>\n" +
                 "    <class>int</class>\n" +
                 "  </parameter-types>\n" +

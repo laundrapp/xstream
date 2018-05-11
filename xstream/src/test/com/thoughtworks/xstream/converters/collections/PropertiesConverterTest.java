@@ -9,9 +9,9 @@
  * 
  * Created on 23. February 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.collections;
+package cucumber.deps.com.thoughtworks.xstream.converters.collections;
 
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 import junit.framework.TestCase;
 

@@ -9,12 +9,12 @@
  * 
  * Created on 04. June 2006 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.binary;
+package cucumber.deps.com.thoughtworks.xstream.io.binary;
 
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
-import com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest;
 
 import java.io.ByteArrayOutputStream;
 import java.io.StringReader;

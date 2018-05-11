@@ -9,7 +9,7 @@
  * 
  * Created on 02. February 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.testutil;
+package cucumber.deps.com.thoughtworks.xstream.testutil;
 
 import junit.framework.Assert;
 

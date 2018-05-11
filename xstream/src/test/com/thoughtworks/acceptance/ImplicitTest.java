@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.thoughtworks.xstream.core.util.OrderRetainingMap;
+import cucumber.deps.com.thoughtworks.xstream.core.util.OrderRetainingMap;
 
 public class ImplicitTest extends AbstractAcceptanceTest {
    

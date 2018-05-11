@@ -9,7 +9,7 @@
  * 
  * Created on 14. July 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 import junit.framework.TestCase;
 

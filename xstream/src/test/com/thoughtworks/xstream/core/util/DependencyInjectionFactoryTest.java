@@ -8,9 +8,9 @@
  * 
  * Created on 30. March 2007 by Joerg Schaible
  */
-package com.thoughtworks.xstream.core.util;
+package cucumber.deps.com.thoughtworks.xstream.core.util;
 
-import com.thoughtworks.xstream.converters.reflection.ObjectAccessException;
+import cucumber.deps.com.thoughtworks.xstream.converters.reflection.ObjectAccessException;
 
 import junit.framework.TestCase;
 

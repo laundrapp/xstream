@@ -9,7 +9,7 @@
  * 
  * Created on 12. April 2005 by Joe Walnes
  */
-package com.thoughtworks.xstream.converters.javabean;
+package cucumber.deps.com.thoughtworks.xstream.converters.javabean;
 
 import junit.framework.TestCase;
 

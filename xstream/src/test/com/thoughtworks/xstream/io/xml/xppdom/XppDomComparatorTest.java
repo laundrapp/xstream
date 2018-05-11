@@ -9,11 +9,11 @@
  * Created on 11. August 2011 by Joerg Schaible.
  */
 
-package com.thoughtworks.xstream.io.xml.xppdom;
+package cucumber.deps.com.thoughtworks.xstream.io.xml.xppdom;
 
 import java.util.Comparator;
 
-import com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
+import cucumber.deps.com.thoughtworks.xstream.io.xml.xppdom.XppFactory;
 
 import junit.framework.TestCase;
 

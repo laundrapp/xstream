@@ -8,7 +8,7 @@
  * 
  * Created on 08. February 2006 by Joerg Schaible
  */
-package com.thoughtworks.xstream.converters.reflection;
+package cucumber.deps.com.thoughtworks.xstream.converters.reflection;
 
 
 public class PureJavaReflectionProvider15Test extends AbstractReflectionProviderTest {

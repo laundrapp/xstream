@@ -13,7 +13,7 @@ package com.thoughtworks.acceptance;
 
 import com.thoughtworks.acceptance.objects.StandardObject;
 import com.thoughtworks.acceptance.someobjects.WithList;
-import com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

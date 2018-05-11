@@ -9,9 +9,9 @@
  * 
  * Created on 05. September 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 
 import junit.framework.TestCase;
 

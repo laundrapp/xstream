@@ -11,19 +11,19 @@
 package com.thoughtworks.acceptance.annotations;
 
 import com.thoughtworks.acceptance.AbstractAcceptanceTest;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import com.thoughtworks.xstream.annotations.XStreamAliasType;
-import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
-import com.thoughtworks.xstream.annotations.XStreamConverter;
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.converters.Converter;
-import com.thoughtworks.xstream.converters.MarshallingContext;
-import com.thoughtworks.xstream.converters.SingleValueConverter;
-import com.thoughtworks.xstream.converters.UnmarshallingContext;
-import com.thoughtworks.xstream.io.HierarchicalStreamReader;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.mapper.Mapper;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAlias;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAliasType;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamAsAttribute;
+import cucumber.deps.com.thoughtworks.xstream.annotations.XStreamConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.converters.Converter;
+import cucumber.deps.com.thoughtworks.xstream.converters.MarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.UnmarshallingContext;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import cucumber.deps.com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import cucumber.deps.com.thoughtworks.xstream.mapper.Mapper;
 
 import java.util.ArrayList;
 import java.util.HashMap;

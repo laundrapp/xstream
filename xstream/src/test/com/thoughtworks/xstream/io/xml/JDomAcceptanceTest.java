@@ -9,7 +9,7 @@
  * 
  * Created on 03. September 2004 by Joe Walnes
  */
-package com.thoughtworks.xstream.io.xml;
+package cucumber.deps.com.thoughtworks.xstream.io.xml;
 
 import java.io.StringReader;
 import java.util.List;
@@ -23,7 +23,7 @@ import org.jdom.output.XMLOutputter;
 
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
 
 public class JDomAcceptanceTest extends TestCase {
 

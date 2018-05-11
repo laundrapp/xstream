@@ -10,8 +10,8 @@
  */
 package com.thoughtworks.acceptance;
 
-import com.thoughtworks.xstream.converters.ConversionException;
-import com.thoughtworks.xstream.converters.SingleValueConverter;
+import cucumber.deps.com.thoughtworks.xstream.converters.ConversionException;
+import cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverter;
 
 import java.text.DecimalFormat;
 import java.text.ParseException;

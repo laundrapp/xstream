@@ -8,7 +8,7 @@
  *
  * Created on 01. September 2009 by Joerg Schaible
  */
-package com.thoughtworks.xstream.io.json;
+package cucumber.deps.com.thoughtworks.xstream.io.json;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -20,8 +20,8 @@ import java.util.HashSet;
 
 import com.thoughtworks.acceptance.someobjects.X;
 import com.thoughtworks.acceptance.someobjects.Y;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.json.JsonWriter.Format;
+import cucumber.deps.com.thoughtworks.xstream.XStream;
+import cucumber.deps.com.thoughtworks.xstream.io.json.JsonWriter.Format;
 
 import org.json.JSONArray;
 import org.json.JSONException;
