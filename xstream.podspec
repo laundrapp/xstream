@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # s.resources =
 
   # multiple dependencies these should be the s.name and s.version
-  s.dependency 'xmlpull', '1.1.3.1.J2ObjC2.1.1'
-  s.dependency 'xpp3', '1.1.4c.J2ObjC2.1.1'
+# s.dependency 'xmlpull', '1.1.3.1.J2ObjC2.1.1'
+# s.dependency 'xpp3', '1.1.4c.J2ObjC2.1.1'
   s.dependency 'Joda-Time', '2.5-J2ObjC2.1.1'
 end
